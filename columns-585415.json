@@ -1,0 +1,117 @@
+{
+    "status": {
+        "input_header": "Status",
+        "function": "override_status"
+    },
+    "lastpage": {
+        "output_header": "lastpage",
+        "function": "lastpage"
+    },
+    "startlanguage": {
+        "output_header": "startlanguage",
+        "content": "en"
+    },
+    "startdate": {
+        "input_header": "Started At",
+        "output_header": "startdate",
+        "function": "convert_date_to_sql"
+    },
+    "datestamp": {
+        "output_header": "datestamp",
+        "function": "submitdate"
+    },
+    "submitdate": {
+        "output_header": "submitdate",
+        "function": "submitdate"
+    },
+    "PhoneCall": {
+        "input_header": "Was your phone call answered quickly?",
+        "output_header": "585415X868X15592",
+        "function": "getSatisfactionCode"
+    },
+    "PhoneCall_comment": {
+        "input_header": "Was your phone call answered quickly? (Followup)",
+        "output_header": "585415X868X15592comment"
+    },
+    "OrderNumber": {
+        "input_header": "orderNumber",
+        "output_header": "585415X868X15599"
+    },
+    "User": {
+        "input_header": "user",
+        "output_header": "585415X868X15600"
+    },
+    "CustomerNumber": {
+        "input_header": "customerNumber",
+        "output_header": "585415X868X15601"
+    },
+    "SalesTotal": {
+        "input_header": "salesTotal",
+        "output_header": "585415X868X15602"
+    },
+    "SourceCode": {
+        "input_header": "sourceCode",
+        "output_header": "585415X868X15603"
+    },
+    "Status": {
+        "input_header": "status",
+        "output_header": "585415X868X15605"
+    },
+    "OHSYDT": {
+        "input_header": "OHSYDT",
+        "output_header": "585415X868X15606"
+    },
+    "OHTIME": {
+        "input_header": "OHTIME",
+        "output_header": "585415X868X15607"
+    },
+    "Friendly": {
+        "input_header": "Was your customer service representative friendly and knowledgeable?",
+        "output_header": "585415X869X15593",
+        "function": "getSatisfactionCode"
+    },
+    "Friendly_comment": {
+        "input_header": "Was your customer service representative friendly and knowledgeable? (Followup)",
+        "output_header": "585415X869X15593comment"
+    },
+    "AbleToAssist": {
+        "input_header": "Was your representative able to assist you with your requirements?",
+        "output_header": "585415X870X15594",
+        "function": "getSatisfactionCode"
+    },
+    "AbleToAssist_comment": {
+        "input_header": "Was your representative able to assist you with your requirements? (Followup)",
+        "output_header": "585415X870X15594comment"
+    },
+    "AvailableToShip": {
+        "input_header": "Were the items you ordered available to ship?",
+        "output_header": "585415X871X15595",
+        "function": "getSatisfactionCode"
+    },
+    "AvailableToShip_comment": {
+        "input_header": "Were the items you ordered available to ship? (Followup)",
+        "output_header": "585415X871X15595comment"
+    },
+    "OverallExperience": {
+        "input_header": "How was your overall experience with H&K today?",
+        "output_header": "585415X872X15596",
+        "function": "getSatisfactionCode"
+    },
+    "OverallExperience_comment": {
+        "input_header": "How was your overall experience with H&K today? (Followup)",
+        "output_header": "585415X872X15596comment"
+    },
+    "RecommendUs": {
+        "input_header": "Will you purchase from H&K Resupply again or recommend us to your colleagues?",
+        "output_header": "585415X873X15597",
+        "function": "getSatisfactionCode"
+    },
+    "RecommendUs_comment": {
+        "input_header": "Will you purchase from H&K Resupply again or recommend us to your colleagues? (Followup)",
+        "output_header": "585415X873X15597comment"
+    },
+    "AdditionalComments": {
+        "input_header": "Extra Data",
+        "output_header": "585415X874X15598"
+    }
+}

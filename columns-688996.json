@@ -1,0 +1,149 @@
+{
+    "concatenate_columns": [{
+        "input_columns": ["FreeGift_a", "FreeGift_b", "FreeGift_c", "FreeGift_d", "FreeGift_e)"],
+        "separator": " ",
+        "output_header": "688996X867X15587"
+    }],
+    "FreeGift_a": {
+        "input_header": "To what mailing address can we send your free gift?"
+    },
+    "FreeGift_b": {
+        "input_header": "To what mailing address can we send your free gift? (SubQuestion0)"
+    },
+    "FreeGift_c": {
+        "input_header": "To what mailing address can we send your free gift? (SubQuestion1)"
+    },
+    "FreeGift_d": {
+        "input_header": "To what mailing address can we send your free gift? (SubQuestion2)"
+    },
+    "FreeGift_e": {
+        "input_header": "To what mailing address can we send your free gift? (SubQuestion3)"
+    },
+    "status": {
+        "input_header": "Status",
+        "function": "override_status"
+    },
+    "lastpage": {
+        "output_header": "lastpage",
+        "function": "lastpage"
+    },
+    "startlanguage": {
+        "output_header": "startlanguage",
+        "content": "en"
+    },
+    "startdate": {
+        "input_header": "Started At",
+        "output_header": "startdate",
+        "function": "convert_date_to_sql"
+    },
+    "datestamp": {
+        "output_header": "datestamp",
+        "function": "datestamp"
+    },
+    "submitdate": {
+        "output_header": "submitdate",
+        "function": "submitdate"
+    },
+    "StoreNumber": {
+        "input_header": "National Store # (Not McOpCo #)",
+        "output_header": "688996X855X15573"
+    },
+    "Region": {
+        "input_header": "Please enter your store contact details (SubQuestion0)",
+        "output_header": "688996X856X15574",
+        "function": "regionToLSCode"
+    },
+    "ContactName": {
+        "input_header": "Please enter your store contact details (SubQuestion1)",
+        "output_header": "688996X856X15575"
+    },
+    "ContactPhone": {
+        "input_header": "Please enter your store contact details (SubQuestion2)",
+        "output_header": "688996X856X15576"
+    },
+    "CustomerService": {
+        "input_header": "Was the customer service/communication from your H&K Market Manager satisfactory? ",
+        "output_header": "688996X857X15577",
+        "function": "getSatisfactionCode"
+    },
+    "CustomerService_comment": {
+        "input_header": "Was the customer service/communication from your H&K Market Manager satisfactory?  (Followup)",
+        "output_header": "688996X857X15577comment"
+    },
+    "ScopeOfWork": {
+        "input_header": "Were the Scope of Work Responsibilities and Equipment Selection Process clearly defined to your satisfaction? ",
+        "output_header": "688996X858X15578",
+        "function": "getSatisfactionCode"
+    },
+    "ScopeOfWork_comment": {
+        "input_header": "Were the Scope of Work Responsibilities and Equipment Selection Process clearly defined to your satisfaction?  (Followup)",
+        "output_header": "688996X858X15578comment"
+    },
+    "CustomerService2": {
+        "input_header": "Was the customer service/communication service from your H&K Project Administrator satisfactory?",
+        "output_header": "688996X859X15579",
+        "function": "getSatisfactionCode"
+    },
+    "CustomerService2_comment": {
+        "input_header": "Was the customer service/communication service from your H&K Project Administrator satisfactory? (Followup)",
+        "output_header": "688996X859X15579comment"
+    },
+    "CustomerService3": {
+        "input_header": "Was the customer service/communication from your H&K Installation Department Service Representative satisfactory?",
+        "output_header": "688996X860X15580",
+        "function": "getSatisfactionCode"
+    },
+    "CustomerService3_comment": {
+        "input_header": "Was the customer service/communication from your H&K Installation Department Service Representative satisfactory? (Followup)",
+        "output_header": "688996X860X15580comment"
+    },
+    "EquipmentCondition": {
+        "input_header": "Were you satisfied with the equipment condition and timeliness of receiving your order?",
+        "output_header": "688996X861X15581",
+        "function": "getSatisfactionCode"
+    },
+    "EquipmentCondition_comment": {
+        "input_header": "Were you satisfied with the equipment condition and timeliness of receiving your order? (Followup)",
+        "output_header": "688996X861X15581comment"
+    },
+    "CompletenessAccuracy": {
+        "input_header": "Were you satisfied with the completeness and accuracy of your order?",
+        "output_header": "688996X862X15582",
+        "function": "getSatisfactionCode"
+    },
+    "CompletenessAccuracy_comment": {
+        "input_header": "Were you satisfied with the completeness and accuracy of your order? (Followup)",
+        "output_header": "688996X862X15582comment"
+    },
+    "PerformancePro": {
+        "input_header": "Were you satisfied with the performance and professionalism of the On-Site Installation team?",
+        "output_header": "688996X863X15583",
+        "function": "getSatisfactionCode"
+    },
+    "PerformancePro_comment": {
+        "input_header": "Were you satisfied with the performance and professionalism of the On-Site Installation team? (Followup)",
+        "output_header": "688996X863X15583comment"
+    },
+    "StartupProcess": {
+        "input_header": "Were you satisfied with H&K’s role in supporting the Start-Up process?",
+        "output_header": "688996X864X15584",
+        "function": "getSatisfactionCode"
+    },
+    "StartupProcess_comment": {
+        "input_header": "Were you satisfied with H&K’s role in supporting the Start-Up process? (Followup)",
+        "output_header": "688996X864X15584comment"
+    },
+    "OverallSatisfaction": {
+        "input_header": "What was your overall satisfaction with H&K’s role in supporting your recent Major Remodel Project?",
+        "output_header": "688996X865X15585",
+        "function": "getSatisfactionCode"
+    },
+    "OverallSatisfaction_comment": {
+        "input_header": "What was your overall satisfaction with H&K’s role in supporting your recent Major Remodel Project? (Followup)",
+        "output_header": "688996X865X15585comment"
+    },
+    "AdditionalComments": {
+        "input_header": "Extra Data",
+        "output_header": "688996X866X15586"
+    }
+}
